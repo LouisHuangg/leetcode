@@ -19,4 +19,17 @@ public class SwapPairsSolution {
         }
         return dumyNode.next;
     }
+
+    //递归
+    public ListNode swapPairs2(ListNode head){
+        //递归结束条件
+        if(head == null || head.next == null) return head;
+        ListNode next = head.next;
+
+        //如何理解这段？ 将剩余的链表进行两两交换操作
+        ListNode newNode = swapPairs2(next.next);
+        next.next = head;
+        head.next = newNode;
+        return next;
+    }
 }
