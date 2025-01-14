@@ -16,4 +16,6 @@ public class GetIntersectionNodeSolution {
         }
         return p1;
     }
+    //还可以用哈希表遍历的方法
+
 }
