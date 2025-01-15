@@ -1,5 +1,6 @@
 package LinkedList;
 
+//链表的模拟题掌握程度还不理想 还是要多练啊
 public class MergeNodeSolution {
     //模拟题
     public ListNode mergeNode(ListNode head){
