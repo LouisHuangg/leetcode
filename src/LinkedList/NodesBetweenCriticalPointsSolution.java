@@ -1,6 +1,7 @@
 package LinkedList;
 
 public class NodesBetweenCriticalPointsSolution {
+    //一道普通的模拟题
     public int[] nodesBetweenCriticalPoints(ListNode head){
         int max = -1, min = -1;
         int first = -1, last = -1, pos = 0;//first代表第一个极值点 用于记录最大 last代表当前的前一个极值点 用于记录最小
