@@ -7,6 +7,7 @@ import java.util.Set;
 
 public class ModifiedListSolution {
     //删除链表元素 经典题 虚拟头结点解决
+    //第一次完全靠自己做出来的题 虽然和前面的题很像
     public ListNode modifiedList(int[] nums, ListNode head){
         Set<Integer> numsSet = new HashSet<>();
         for(int num : nums){
