@@ -1,6 +1,4 @@
-package LinkedList;
-
-import javax.swing.event.ListDataEvent;
+package LinkedList.traversal;
 
 public class SwapPairsSolution {
     //翻译

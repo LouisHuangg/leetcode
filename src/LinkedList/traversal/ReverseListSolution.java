@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.traversal;
 
 public class ReverseListSolution {
     //双指针翻转链表

@@ -1,4 +1,6 @@
-package LinkedList;
+package LinkedList.delete;
+
+import LinkedList.traversal.ListNode;
 
 public class RemoveNodeFromEndSolution {
     //删除倒数第n个节点

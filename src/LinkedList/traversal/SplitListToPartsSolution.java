@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.traversal;
 
 public class SplitListToPartsSolution {
     //模拟题 算是能靠自己写出来的一道题 但还有一些小细节要注意

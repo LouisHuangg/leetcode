@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.traversal;
 
 public class GetDecimalValueSolution {
     //将二进制链表转为十进制

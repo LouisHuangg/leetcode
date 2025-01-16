@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.traversal;
 
 public class GetIntersectionNodeSolution {
     //找相交链表的相交节点

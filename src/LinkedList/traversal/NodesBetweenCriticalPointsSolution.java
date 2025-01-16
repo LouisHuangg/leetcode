@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.traversal;
 
 public class NodesBetweenCriticalPointsSolution {
     //一道普通的模拟题
