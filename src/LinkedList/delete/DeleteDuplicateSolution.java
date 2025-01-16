@@ -24,7 +24,7 @@ public class DeleteDuplicateSolution {
     }
 
     public ListNode deleteDuplicate2(ListNode head){
-        //自己写的 也过了 但是是 O(N)
+        //自己写的 也过了 但是比上面的方法慢 这种还用集合 有点脱裤子放屁了
         Set<Integer> numsSet = new HashSet<Integer>();
         ListNode dummyNode = new ListNode();
         dummyNode.next = head;
